@@ -62,7 +62,7 @@ public class Main {
 
                 } while (select != 4);
                 System.out.println("İşlem talebiniz yoktur. İyi günler");
-                break;
+                break;  //eğer çıkış yap seçeneğini seçerse döngüyü boz ve bitir
             } else {
                 right--;
                 System.out.println("Kullanıcı adı veya şifre hatalı . Tekrar deneyiniz"); // yanlış id ,pass olursa başa dön
